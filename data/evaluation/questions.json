@@ -1,8 +1,0 @@
-[
-  {
-    "question": "What was the company's revenue in the latest reporting year?",
-    "expected_answer": "Fill this in after selecting your source documents.",
-    "source": "example.pdf",
-    "page": null
-  }
-]
