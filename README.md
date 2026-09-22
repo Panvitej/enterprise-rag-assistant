@@ -1,6 +1,6 @@
 # Enterprise Research & Decision Assistant
 
-A beginner-friendly RAG (Retrieval-Augmented Generation) project built as a first serious AI/LLM portfolio project.
+RAG (Retrieval-Augmented Generation) project built as a first serious AI/LLM.
 
 The goal is to build a system that can read company reports and technical documents, retrieve relevant information, and answer questions with source citations instead of relying only on the LLM's internal knowledge.
 
