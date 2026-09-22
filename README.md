@@ -285,11 +285,6 @@ While building this project, learn these concepts in order:
 16. PostgreSQL
 17. Basic cloud deployment
 
-## Resume Version
-
-After the project is genuinely implemented and measured, a resume description can be:
-
-> Built a document-grounded RAG application using Python, FastAPI, LlamaIndex and Qdrant that ingests PDF reports, performs semantic retrieval and generates citation-backed answers. Evaluated retrieval and generation quality across multiple RAG configurations and added observability, testing and containerized deployment.
 
 Only add performance numbers after measuring them yourself.
 
