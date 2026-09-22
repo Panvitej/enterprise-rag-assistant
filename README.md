@@ -4,7 +4,6 @@ A beginner-friendly RAG (Retrieval-Augmented Generation) project built as a firs
 
 The goal is to build a system that can read company reports and technical documents, retrieve relevant information, and answer questions with source citations instead of relying only on the LLM's internal knowledge.
 
-> This repository is intentionally designed to grow in stages. The first version is simple and understandable; advanced RAG features are added only after the basic pipeline works.
 
 ## Project Goal
 
