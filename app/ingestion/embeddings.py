@@ -9,4 +9,4 @@ class Embedder:
         return self.model.encode(
             texts,
             normalize_embeddings=True,
-        )
+        ) 
