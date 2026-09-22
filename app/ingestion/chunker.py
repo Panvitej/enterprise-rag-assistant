@@ -1,19 +1,29 @@
-def chunk_text(text: str, chunk_size: int = 500, overlap: int = 75) -> list[str]:
-    """Simple word-based chunker for the first project version.
-
-    Later versions can use a token-aware or semantic chunker.
+def chunk_text(
+    text: str,
+    chunk_size: int = 500,
+    overlap: int = 75,
+) -> list[str]:
     """
+    Split text into overlapping word-based chunks.
+    """
+
     words = text.split()
+
     chunks = []
 
     start = 0
-    while start < len(words): 
+
+    while start < len(words):
+
         end = min(start + chunk_size, len(words))
-        chunks.append(" ".join(words[start:end]))
+
+        chunk = " ".join(words[start:end])
+
+        chunks.append(chunk)
 
         if end == len(words):
             break
 
-        start = max(end - overlap, start + 1)
+        start = end - overlap
 
     return chunks
